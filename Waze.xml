@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_kkgsMBeLEd60N8ipLbB6nA" name="Casos de Uso">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_dTHWcKHjEeq3keEBPB7z-g" name="Redes_sociales"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_dU-XoKHjEeq3keEBPB7z-g" name="Sistema_de_email"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_dVD3MKHjEeq3keEBPB7z-g" name="Firebase"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_dVG6gKHjEeq3keEBPB7z-g" name="Tiempo"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_dVTu0KHjEeq3keEBPB7z-g" name="wazer"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_dVWyIKHjEeq3keEBPB7z-g" name="waze"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_dVbqoKHjEeq3keEBPB7z-g" name="Wazer_Autenticado" clientDependency="_dfiB0KHjEeq3keEBPB7z-g">
+    <generalization xmi:id="_dVvMoKHjEeq3keEBPB7z-g" general="_dVWyIKHjEeq3keEBPB7z-g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_dWcXQKHjEeq3keEBPB7z-g" name="Visualizador"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_dcIvkKHjEeq3keEBPB7z-g" name="Login">
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_dc6LoKHjEeq3keEBPB7z-g" name="Port_1" visibility="public"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_ddRYAKHjEeq3keEBPB7z-g" name="Autenticar_Redes"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_ddYswKHjEeq3keEBPB7z-g" name="Registro"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_ddgokKHjEeq3keEBPB7z-g" name="Registro_Redes"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_ddnWQKHjEeq3keEBPB7z-g" name="Base_de_Datos"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_dertQKHjEeq3keEBPB7z-g" name="Dependency_1" supplier="_dgQakKHjEeq3keEBPB7z-g" client="_df2K4KHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_de0QIKHjEeq3keEBPB7z-g" name="Dependency_2" supplier="_dg1pYKHjEeq3keEBPB7z-g" client="_dgayoKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_de5IoKHjEeq3keEBPB7z-g" name="Dependency_3" supplier="_dgjVgKHjEeq3keEBPB7z-g" client="_dg1pYKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_de690KHjEeq3keEBPB7z-g" name="Dependency_4" supplier="_dg7wAKHjEeq3keEBPB7z-g" client="_dg1pYKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_de8zAKHjEeq3keEBPB7z-g" name="Dependency_5" supplier="_dhUKgKHjEeq3keEBPB7z-g" client="_dhDr0KHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_de_2UKHjEeq3keEBPB7z-g" name="Dependency_6" supplier="_dgo1EKHjEeq3keEBPB7z-g" client="_dg7wAKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_dfBrgKHjEeq3keEBPB7z-g" name="Dependency_7" supplier="_dhnsgKHjEeq3keEBPB7z-g" client="_dhhl4KHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_dfEHwKHjEeq3keEBPB7z-g" name="Dependency_8" supplier="_dhtMEKHjEeq3keEBPB7z-g" client="_dhnsgKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_dfHLEKHjEeq3keEBPB7z-g" name="Dependency_9" supplier="_df2K4KHjEeq3keEBPB7z-g" client="_dhtMEKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_dfIZMKHjEeq3keEBPB7z-g" name="Dependency_10" supplier="_dg7wAKHjEeq3keEBPB7z-g" client="_dgQakKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_dfJnUKHjEeq3keEBPB7z-g" name="Dependency_11" supplier="_dgjVgKHjEeq3keEBPB7z-g" client="_dgQakKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_dfLcgKHjEeq3keEBPB7z-g" name="Dependency_12" supplier="_dgviwKHjEeq3keEBPB7z-g" client="_dgo1EKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_dfN4wKHjEeq3keEBPB7z-g" name="Dependency_13" supplier="_dhhl4KHjEeq3keEBPB7z-g" client="_dgV6IKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_dfPt8KHjEeq3keEBPB7z-g" name="Dependency_14" supplier="_dh-R0KHjEeq3keEBPB7z-g" client="_dhyroKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_dfSKMKHjEeq3keEBPB7z-g" name="Dependency_15" supplier="_dhyroKHjEeq3keEBPB7z-g" client="_dh4yQKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_dfT_YKHjEeq3keEBPB7z-g" name="Dependency_16" supplier="_diDxYKHjEeq3keEBPB7z-g" client="_diIp4KHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_dfXCsKHjEeq3keEBPB7z-g" name="Dependency_17" supplier="_diP-oKHjEeq3keEBPB7z-g" client="_diIp4KHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_dfY34KHjEeq3keEBPB7z-g" name="Dependency_18" supplier="_dia9wKHjEeq3keEBPB7z-g" client="_diVeMKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_dfb7MKHjEeq3keEBPB7z-g" name="Dependency_19" supplier="_dihrcKHjEeq3keEBPB7z-g" client="_diVeMKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_dfdwYKHjEeq3keEBPB7z-g" name="Dependency_20" supplier="_dinyEKHjEeq3keEBPB7z-g" client="_dihrcKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_dfflkKHjEeq3keEBPB7z-g" name="Dependency_21" supplier="_dihrcKHjEeq3keEBPB7z-g" client="_diDxYKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_dfgzsKHjEeq3keEBPB7z-g" name="Dependency_22" supplier="_diDxYKHjEeq3keEBPB7z-g" client="_dh4yQKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_dfiB0KHjEeq3keEBPB7z-g" name="Dependency_23" supplier="_dVWyIKHjEeq3keEBPB7z-g" client="_dVbqoKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_df2K4KHjEeq3keEBPB7z-g" name="configurar_cuenta" clientDependency="_dertQKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dgQakKHjEeq3keEBPB7z-g" name="validar_datos_en_el_servidor" clientDependency="_dfIZMKHjEeq3keEBPB7z-g _dfJnUKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dgV6IKHjEeq3keEBPB7z-g" name="Registrar_cuenta" clientDependency="_dfN4wKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dgayoKHjEeq3keEBPB7z-g" name="Registrar_en_Redes" clientDependency="_de0QIKHjEeq3keEBPB7z-g">
+    <generalization xmi:id="_dgfrIKHjEeq3keEBPB7z-g" general="_dgV6IKHjEeq3keEBPB7z-g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dgjVgKHjEeq3keEBPB7z-g" name="Almacenar_datos_en_la_informacion"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dgo1EKHjEeq3keEBPB7z-g" name="Verificar__Autenticidad_de_Usuario" clientDependency="_dfLcgKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dgviwKHjEeq3keEBPB7z-g" name="Activar_Usuario"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dg1pYKHjEeq3keEBPB7z-g" name="Validar_Existencia" clientDependency="_de5IoKHjEeq3keEBPB7z-g _de690KHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dg7wAKHjEeq3keEBPB7z-g" name="Autenticar_Usuario" clientDependency="_de_2UKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dhDr0KHjEeq3keEBPB7z-g" name="Seleccionar_Autenticacion" clientDependency="_de8zAKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dhLAkKHjEeq3keEBPB7z-g" name="Autenticar_Redes">
+    <generalization xmi:id="_dhQgIKHjEeq3keEBPB7z-g" general="_dhUKgKHjEeq3keEBPB7z-g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dhUKgKHjEeq3keEBPB7z-g" name="Autenticar__usuario"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dhZDAKHjEeq3keEBPB7z-g" name="Autenticar_local">
+    <generalization xmi:id="_dhd7gKHjEeq3keEBPB7z-g" general="_dhUKgKHjEeq3keEBPB7z-g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dhhl4KHjEeq3keEBPB7z-g" name="Registrar_con_telefono" clientDependency="_dfBrgKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dhnsgKHjEeq3keEBPB7z-g" name="Ingresar_numero" clientDependency="_dfEHwKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dhtMEKHjEeq3keEBPB7z-g" name="Ingresar_codigo" clientDependency="_dfHLEKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dhyroKHjEeq3keEBPB7z-g" name="Leer_Ubicacion_Actual_GPS" clientDependency="_dfPt8KHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dh4yQKHjEeq3keEBPB7z-g" name="Validar_movimiento" clientDependency="_dfSKMKHjEeq3keEBPB7z-g _dfgzsKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dh-R0KHjEeq3keEBPB7z-g" name="Almacenar_ubicacion"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_diDxYKHjEeq3keEBPB7z-g" name="Leer_ubicacion_Almacenada" clientDependency="_dfflkKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_diIp4KHjEeq3keEBPB7z-g" name="Reportar_ubicacion_a_Waze" clientDependency="_dfT_YKHjEeq3keEBPB7z-g _dfXCsKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_diP-oKHjEeq3keEBPB7z-g" name="verificar_conexion_a_internet"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_diVeMKHjEeq3keEBPB7z-g" name="Asignar_ubicacion_manual" clientDependency="_dfY34KHjEeq3keEBPB7z-g _dfb7MKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dia9wKHjEeq3keEBPB7z-g" name="Acercar_o_alejar_mapa"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dihrcKHjEeq3keEBPB7z-g" name="Consultar_trafico_local" clientDependency="_dfdwYKHjEeq3keEBPB7z-g"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dinyEKHjEeq3keEBPB7z-g" name="Posicionar_items_mapa"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_djXY8KHjEeq3keEBPB7z-g" name="Association_3" memberEnd="_djsJEKHjEeq3keEBPB7z-g _dkFxsKHjEeq3keEBPB7z-g" navigableOwnedEnd="_djsJEKHjEeq3keEBPB7z-g _dkFxsKHjEeq3keEBPB7z-g">
+    <ownedEnd xmi:id="_djsJEKHjEeq3keEBPB7z-g" name="src" type="_dU-XoKHjEeq3keEBPB7z-g" association="_djXY8KHjEeq3keEBPB7z-g"/>
+    <ownedEnd xmi:id="_dkFxsKHjEeq3keEBPB7z-g" name="dst" type="_dgo1EKHjEeq3keEBPB7z-g" association="_djXY8KHjEeq3keEBPB7z-g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dkJcEKHjEeq3keEBPB7z-g" name="Association_5" memberEnd="_dkKqMKHjEeq3keEBPB7z-g _dkNGcKHjEeq3keEBPB7z-g" navigableOwnedEnd="_dkKqMKHjEeq3keEBPB7z-g _dkNGcKHjEeq3keEBPB7z-g">
+    <ownedEnd xmi:id="_dkKqMKHjEeq3keEBPB7z-g" name="src" type="_dTHWcKHjEeq3keEBPB7z-g" association="_dkJcEKHjEeq3keEBPB7z-g"/>
+    <ownedEnd xmi:id="_dkNGcKHjEeq3keEBPB7z-g" name="dst" type="_dgayoKHjEeq3keEBPB7z-g" association="_dkJcEKHjEeq3keEBPB7z-g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dkO7oKHjEeq3keEBPB7z-g" name="Association_7" memberEnd="_dkPisKHjEeq3keEBPB7z-g _dkR-8KHjEeq3keEBPB7z-g" navigableOwnedEnd="_dkPisKHjEeq3keEBPB7z-g _dkR-8KHjEeq3keEBPB7z-g">
+    <ownedEnd xmi:id="_dkPisKHjEeq3keEBPB7z-g" name="src" type="_dVD3MKHjEeq3keEBPB7z-g" association="_dkO7oKHjEeq3keEBPB7z-g"/>
+    <ownedEnd xmi:id="_dkR-8KHjEeq3keEBPB7z-g" name="dst" type="_dhLAkKHjEeq3keEBPB7z-g" association="_dkO7oKHjEeq3keEBPB7z-g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dkUbMKHjEeq3keEBPB7z-g" name="Association_9" memberEnd="_dkVCQKHjEeq3keEBPB7z-g _dkYFkKHjEeq3keEBPB7z-g" navigableOwnedEnd="_dkVCQKHjEeq3keEBPB7z-g _dkYFkKHjEeq3keEBPB7z-g">
+    <ownedEnd xmi:id="_dkVCQKHjEeq3keEBPB7z-g" name="src" type="_dVG6gKHjEeq3keEBPB7z-g" association="_dkUbMKHjEeq3keEBPB7z-g"/>
+    <ownedEnd xmi:id="_dkYFkKHjEeq3keEBPB7z-g" name="dst" type="_diIp4KHjEeq3keEBPB7z-g" association="_dkUbMKHjEeq3keEBPB7z-g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dkbv8KHjEeq3keEBPB7z-g" name="Association_10" memberEnd="_dkcXAKHjEeq3keEBPB7z-g _dkfaUKHjEeq3keEBPB7z-g" navigableOwnedEnd="_dkcXAKHjEeq3keEBPB7z-g _dkfaUKHjEeq3keEBPB7z-g">
+    <ownedEnd xmi:id="_dkcXAKHjEeq3keEBPB7z-g" name="src" type="_dVG6gKHjEeq3keEBPB7z-g" association="_dkbv8KHjEeq3keEBPB7z-g"/>
+    <ownedEnd xmi:id="_dkfaUKHjEeq3keEBPB7z-g" name="dst" type="_dh4yQKHjEeq3keEBPB7z-g" association="_dkbv8KHjEeq3keEBPB7z-g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dkidoKHjEeq3keEBPB7z-g" name="Association_8" memberEnd="_dkkS0KHjEeq3keEBPB7z-g _dkmvEKHjEeq3keEBPB7z-g" navigableOwnedEnd="_dkkS0KHjEeq3keEBPB7z-g _dkmvEKHjEeq3keEBPB7z-g">
+    <ownedEnd xmi:id="_dkkS0KHjEeq3keEBPB7z-g" name="src" type="_dVG6gKHjEeq3keEBPB7z-g" association="_dkidoKHjEeq3keEBPB7z-g"/>
+    <ownedEnd xmi:id="_dkmvEKHjEeq3keEBPB7z-g" name="dst" type="_dh4yQKHjEeq3keEBPB7z-g" association="_dkidoKHjEeq3keEBPB7z-g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dkpLUKHjEeq3keEBPB7z-g" name="Association_11" memberEnd="_dkqZcKHjEeq3keEBPB7z-g _dktcwKHjEeq3keEBPB7z-g" navigableOwnedEnd="_dkqZcKHjEeq3keEBPB7z-g _dktcwKHjEeq3keEBPB7z-g">
+    <ownedEnd xmi:id="_dkqZcKHjEeq3keEBPB7z-g" name="src" type="_dVTu0KHjEeq3keEBPB7z-g" association="_dkpLUKHjEeq3keEBPB7z-g"/>
+    <ownedEnd xmi:id="_dktcwKHjEeq3keEBPB7z-g" name="dst" type="_dihrcKHjEeq3keEBPB7z-g" association="_dkpLUKHjEeq3keEBPB7z-g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dkuq4KHjEeq3keEBPB7z-g" name="Association_12" memberEnd="_dkv5AKHjEeq3keEBPB7z-g _dky8UKHjEeq3keEBPB7z-g" navigableOwnedEnd="_dkv5AKHjEeq3keEBPB7z-g _dky8UKHjEeq3keEBPB7z-g">
+    <ownedEnd xmi:id="_dkv5AKHjEeq3keEBPB7z-g" name="src" type="_dVWyIKHjEeq3keEBPB7z-g" association="_dkuq4KHjEeq3keEBPB7z-g"/>
+    <ownedEnd xmi:id="_dky8UKHjEeq3keEBPB7z-g" name="dst" type="_dhDr0KHjEeq3keEBPB7z-g" association="_dkuq4KHjEeq3keEBPB7z-g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dk1YkKHjEeq3keEBPB7z-g" name="Association_13" memberEnd="_dk3NwKHjEeq3keEBPB7z-g _dk5qAKHjEeq3keEBPB7z-g" navigableOwnedEnd="_dk3NwKHjEeq3keEBPB7z-g _dk5qAKHjEeq3keEBPB7z-g">
+    <ownedEnd xmi:id="_dk3NwKHjEeq3keEBPB7z-g" name="src" type="_dVWyIKHjEeq3keEBPB7z-g" association="_dk1YkKHjEeq3keEBPB7z-g"/>
+    <ownedEnd xmi:id="_dk5qAKHjEeq3keEBPB7z-g" name="dst" type="_dhUKgKHjEeq3keEBPB7z-g" association="_dk1YkKHjEeq3keEBPB7z-g"/>
+  </packagedElement>
+</uml:Model>
